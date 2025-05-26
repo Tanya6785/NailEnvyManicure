@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/NailEnvyManicure/',  // <-- добавь эту строку
+  base: '/NailEnvyManicure/',  // <-- название твоего репозитория с слешами
   plugins: [react()],
 })
-
